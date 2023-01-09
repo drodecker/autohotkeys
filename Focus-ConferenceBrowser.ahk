@@ -6,15 +6,7 @@ SetTitlematchmode 2	; place in auto-execute section
 
 If WinExist("Meet")
 	WinActivate
-Else If WinExist("Zoom")
-	WinActivate
 Else If WinExist("Whereby")
-	WinActivate
-Else If WinExist("Webex")
-	WinActivate
-Else If WinExist("Skype")
-	WinActivate
-Else If WinExist("Teams")
 	WinActivate
 Else If WinExist("Google Chrome")
 	WinActivate
